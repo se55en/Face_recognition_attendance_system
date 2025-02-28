@@ -1,0 +1,754 @@
+Build output check failed:
+    Regex: 'argument .* is not valid'
+    Output line: 'cc1: warning: ‘-Werror=’ argument ‘-Werror=non-virtual-dtor’ is not valid for C'
+Compilation failed:
+    source file: '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type  -Werror=non-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: /home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_500c2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_500c2.dir/build.make CMakeFiles/cmTC_500c2.dir/build
+make[1]: Entering directory '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_500c2.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -o CMakeFiles/cmTC_500c2.dir/src.c.o   -c /home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: ‘-Werror=’ argument ‘-Werror=non-virtual-dtor’ is not valid for C
+/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_500c2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_500c2.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    CMakeFiles/cmTC_500c2.dir/src.c.o  -o cmTC_500c2 
+make[1]: Leaving directory '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wmissing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ccead/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ccead.dir/build.make CMakeFiles/cmTC_ccead.dir/build
+make[1]: Entering directory '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ccead.dir/src.cxx.o
+/usr/bin/c++    -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -std=c++11 -o CMakeFiles/cmTC_ccead.dir/src.cxx.o -c /home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++
+/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking CXX executable cmTC_ccead
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ccead.dir/link.txt --verbose=1
+/usr/bin/c++    -O3 -DNDEBUG    CMakeFiles/cmTC_ccead.dir/src.cxx.o  -o cmTC_ccead 
+make[1]: Leaving directory '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wstrict-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0ebc1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0ebc1.dir/build.make CMakeFiles/cmTC_0ebc1.dir/build
+make[1]: Entering directory '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0ebc1.dir/src.cxx.o
+/usr/bin/c++    -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wstrict-prototypes -std=c++11 -o CMakeFiles/cmTC_0ebc1.dir/src.cxx.o -c /home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking CXX executable cmTC_0ebc1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ebc1.dir/link.txt --verbose=1
+/usr/bin/c++    -O3 -DNDEBUG    CMakeFiles/cmTC_0ebc1.dir/src.cxx.o  -o cmTC_0ebc1 
+make[1]: Leaving directory '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo'
+===== BUILD LOG =====
+Change Dir: /home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1a5c3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1a5c3.dir/build.make CMakeFiles/cmTC_1a5c3.dir/build
+make[1]: Entering directory '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1a5c3.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -o CMakeFiles/cmTC_1a5c3.dir/src.c.o   -c /home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C
+/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_1a5c3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a5c3.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    CMakeFiles/cmTC_1a5c3.dir/src.c.o  -o cmTC_1a5c3 
+make[1]: Leaving directory '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wsuggest-override’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wsuggest-override'
+===== BUILD LOG =====
+Change Dir: /home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2f3b6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2f3b6.dir/build.make CMakeFiles/cmTC_2f3b6.dir/build
+make[1]: Entering directory '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2f3b6.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wsuggest-override -o CMakeFiles/cmTC_2f3b6.dir/src.c.o   -c /home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wsuggest-override’ is valid for C++/ObjC++ but not for C
+/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_2f3b6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f3b6.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    CMakeFiles/cmTC_2f3b6.dir/src.c.o  -o cmTC_2f3b6 
+make[1]: Leaving directory '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-delete-non-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: /home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7096f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7096f.dir/build.make CMakeFiles/cmTC_7096f.dir/build
+make[1]: Entering directory '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7096f.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-delete-non-virtual-dtor -o CMakeFiles/cmTC_7096f.dir/src.c.o   -c /home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C
+/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_7096f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7096f.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    CMakeFiles/cmTC_7096f.dir/src.c.o  -o cmTC_7096f 
+make[1]: Leaving directory '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’'
+Compilation failed:
+    source file: '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ce8ec/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ce8ec.dir/build.make CMakeFiles/cmTC_ce8ec.dir/build
+make[1]: Entering directory '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ce8ec.dir/src.cxx.o
+/usr/bin/c++    -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -std=c++11 -o CMakeFiles/cmTC_ce8ec.dir/src.cxx.o -c /home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.cxx
+/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’
+Linking CXX executable cmTC_ce8ec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce8ec.dir/link.txt --verbose=1
+/usr/bin/c++    -O3 -DNDEBUG    CMakeFiles/cmTC_ce8ec.dir/src.cxx.o  -o cmTC_ce8ec 
+make[1]: Leaving directory '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’'
+Compilation failed:
+    source file: '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7fc0b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7fc0b.dir/build.make CMakeFiles/cmTC_7fc0b.dir/build
+make[1]: Entering directory '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7fc0b.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_7fc0b.dir/src.c.o   -c /home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.c
+/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’
+Linking C executable cmTC_7fc0b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7fc0b.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    CMakeFiles/cmTC_7fc0b.dir/src.c.o  -o cmTC_7fc0b 
+make[1]: Leaving directory '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -fvisibility-inlines-hidden'
+===== BUILD LOG =====
+Change Dir: /home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_edd36/fast"
+/usr/bin/make -f CMakeFiles/cmTC_edd36.dir/build.make CMakeFiles/cmTC_edd36.dir/build
+make[1]: Entering directory '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_edd36.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/cmTC_edd36.dir/src.c.o   -c /home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C
+/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_edd36
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_edd36.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    CMakeFiles/cmTC_edd36.dir/src.c.o  -o cmTC_edd36 
+make[1]: Leaving directory '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’'
+Compilation failed:
+    source file: '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: /home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0610d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0610d.dir/build.make CMakeFiles/cmTC_0610d.dir/build
+make[1]: Entering directory '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0610d.dir/src.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare  -O3 -DNDEBUG  -DNDEBUG -fPIE   -Wno-shorten-64-to-32 -o CMakeFiles/cmTC_0610d.dir/src.c.o   -c /home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.c
+/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’
+Linking C executable cmTC_0610d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0610d.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_0610d.dir/src.c.o  -o cmTC_0610d 
+make[1]: Leaving directory '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Determining if the include file io.h exists failed with the following output:
+Change Dir: /home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d3d45/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d3d45.dir/build.make CMakeFiles/cmTC_d3d45.dir/build
+make[1]: Entering directory '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d3d45.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_d3d45.dir/CheckIncludeFile.c.o   -c /home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: io.h: No such file or directory
+ #include <io.h>
+          ^~~~~~
+compilation terminated.
+CMakeFiles/cmTC_d3d45.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_d3d45.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_d3d45.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d3d45/fast' failed
+make: *** [cmTC_d3d45/fast] Error 2
+
+
+Determining size of INT8 failed with the following output:
+Change Dir: /home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b772d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b772d.dir/build.make CMakeFiles/cmTC_b772d.dir/build
+make[1]: Entering directory '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b772d.dir/int8.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_b772d.dir/int8.c.o   -c /home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CheckTypeSize/int8.c
+/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CheckTypeSize/int8.c:23:22: error: ‘INT8’ undeclared here (not in a function); did you mean ‘INT8_C’?
+ #define SIZE (sizeof(INT8))
+                      ^
+/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CheckTypeSize/int8.c:25:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+CMakeFiles/cmTC_b772d.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_b772d.dir/int8.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_b772d.dir/int8.c.o] Error 1
+make[1]: Leaving directory '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b772d/fast' failed
+make: *** [cmTC_b772d/fast] Error 2
+
+/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CheckTypeSize/int8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT8))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of INT16 failed with the following output:
+Change Dir: /home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f5f76/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f5f76.dir/build.make CMakeFiles/cmTC_f5f76.dir/build
+make[1]: Entering directory '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f5f76.dir/int16.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_f5f76.dir/int16.c.o   -c /home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CheckTypeSize/int16.c
+/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CheckTypeSize/int16.c:23:22: error: ‘INT16’ undeclared here (not in a function); did you mean ‘INT16_C’?
+ #define SIZE (sizeof(INT16))
+                      ^
+/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CheckTypeSize/int16.c:25:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+CMakeFiles/cmTC_f5f76.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_f5f76.dir/int16.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_f5f76.dir/int16.c.o] Error 1
+make[1]: Leaving directory '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f5f76/fast' failed
+make: *** [cmTC_f5f76/fast] Error 2
+
+/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CheckTypeSize/int16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT16))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of INT32 failed with the following output:
+Change Dir: /home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b1ca3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b1ca3.dir/build.make CMakeFiles/cmTC_b1ca3.dir/build
+make[1]: Entering directory '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b1ca3.dir/int32.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_b1ca3.dir/int32.c.o   -c /home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CheckTypeSize/int32.c
+/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CheckTypeSize/int32.c:23:22: error: ‘INT32’ undeclared here (not in a function); did you mean ‘INT32_C’?
+ #define SIZE (sizeof(INT32))
+                      ^
+/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CheckTypeSize/int32.c:25:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+CMakeFiles/cmTC_b1ca3.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_b1ca3.dir/int32.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_b1ca3.dir/int32.c.o] Error 1
+make[1]: Leaving directory '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b1ca3/fast' failed
+make: *** [cmTC_b1ca3/fast] Error 2
+
+/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CheckTypeSize/int32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT32))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function setmode exists failed with the following output:
+Change Dir: /home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c0dbe/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c0dbe.dir/build.make CMakeFiles/cmTC_c0dbe.dir/build
+make[1]: Entering directory '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c0dbe.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=setmode -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_c0dbe.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c0dbe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0dbe.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=setmode -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_c0dbe.dir/CheckFunctionExists.c.o  -o cmTC_c0dbe 
+CMakeFiles/cmTC_c0dbe.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text.startup.main+0xc): undefined reference to `setmode'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_c0dbe.dir/build.make:97: recipe for target 'cmTC_c0dbe' failed
+make[1]: *** [cmTC_c0dbe] Error 1
+make[1]: Leaving directory '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c0dbe/fast' failed
+make: *** [cmTC_c0dbe/fast] Error 2
+
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-missing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_21564/fast"
+/usr/bin/make -f CMakeFiles/cmTC_21564.dir/build.make CMakeFiles/cmTC_21564.dir/build
+make[1]: Entering directory '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_21564.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-declarations -Wno-unused-parameter  -O3 -DNDEBUG  -DNDEBUG -fPIE   -Wno-missing-prototypes -std=c++11 -o CMakeFiles/cmTC_21564.dir/src.cxx.o -c /home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++
+/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking CXX executable cmTC_21564
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21564.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-declarations -Wno-unused-parameter  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_21564.dir/src.cxx.o  -o cmTC_21564 
+make[1]: Leaving directory '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-implicit-const-int-float-conversion’'
+Compilation failed:
+    source file: '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-implicit-const-int-float-conversion'
+===== BUILD LOG =====
+Change Dir: /home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3367b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3367b.dir/build.make CMakeFiles/cmTC_3367b.dir/build
+make[1]: Entering directory '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3367b.dir/src.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -Wno-implicit-const-int-float-conversion -o CMakeFiles/cmTC_3367b.dir/src.c.o   -c /home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.c
+/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1: warning: unrecognized command line option ‘-Wno-implicit-const-int-float-conversion’
+Linking C executable cmTC_3367b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3367b.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_3367b.dir/src.c.o  -o cmTC_3367b 
+make[1]: Leaving directory '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Determining if the _aligned_malloc exist failed with the following output:
+Change Dir: /home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8e783/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8e783.dir/build.make CMakeFiles/cmTC_8e783.dir/build
+make[1]: Entering directory '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8e783.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_8e783.dir/CheckSymbolExists.c.o   -c /home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘_aligned_malloc’ undeclared (first use in this function); did you mean ‘__builtin_malloc’?
+   return ((int*)(&_aligned_malloc))[argc];
+                   ^~~~~~~~~~~~~~~
+                   __builtin_malloc
+/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:4:14: warning: parameter ‘argc’ set but not used [-Wunused-but-set-parameter]
+ int main(int argc, char** argv)
+              ^~~~
+CMakeFiles/cmTC_8e783.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_8e783.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_8e783.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8e783/fast' failed
+make: *** [cmTC_8e783/fast] Error 2
+
+File /home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _aligned_malloc
+  return ((int*)(&_aligned_malloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-cast-function-type’'
+Compilation failed:
+    source file: '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-cast-function-type'
+===== BUILD LOG =====
+Change Dir: /home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8e774/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8e774.dir/build.make CMakeFiles/cmTC_8e774.dir/build
+make[1]: Entering directory '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8e774.dir/src.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-undef -Wno-strict-prototypes  -O3 -DNDEBUG  -DNDEBUG -fPIE   -Wno-cast-function-type -o CMakeFiles/cmTC_8e774.dir/src.c.o   -c /home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.c
+/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1: warning: unrecognized command line option ‘-Wno-cast-function-type’
+Linking C executable cmTC_8e774
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e774.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-undef -Wno-strict-prototypes  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_8e774.dir/src.c.o  -o cmTC_8e774 
+make[1]: Leaving directory '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-inconsistent-missing-override’'
+Compilation failed:
+    source file: '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-inconsistent-missing-override'
+===== BUILD LOG =====
+Change Dir: /home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7920c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7920c.dir/build.make CMakeFiles/cmTC_7920c.dir/build
+make[1]: Entering directory '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7920c.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override  -O3 -DNDEBUG  -DNDEBUG -fPIE   -Wno-inconsistent-missing-override -std=c++11 -o CMakeFiles/cmTC_7920c.dir/src.cxx.o -c /home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.cxx
+/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-inconsistent-missing-override’
+Linking CXX executable cmTC_7920c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7920c.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_7920c.dir/src.cxx.o  -o cmTC_7920c 
+make[1]: Leaving directory '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-implicit-const-int-float-conversion’'
+Compilation failed:
+    source file: '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-implicit-const-int-float-conversion'
+===== BUILD LOG =====
+Change Dir: /home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4238c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4238c.dir/build.make CMakeFiles/cmTC_4238c.dir/build
+make[1]: Entering directory '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4238c.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override -Wno-implicit-fallthrough -Wno-tautological-compare -Wno-reorder -Wno-unused-result  -O3 -DNDEBUG  -DNDEBUG -fPIE   -Wno-implicit-const-int-float-conversion -std=c++11 -o CMakeFiles/cmTC_4238c.dir/src.cxx.o -c /home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.cxx
+/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-implicit-const-int-float-conversion’
+Linking CXX executable cmTC_4238c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4238c.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override -Wno-implicit-fallthrough -Wno-tautological-compare -Wno-reorder -Wno-unused-result  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_4238c.dir/src.cxx.o  -o cmTC_4238c 
+make[1]: Leaving directory '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-tautological-undefined-compare’'
+Compilation failed:
+    source file: '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-tautological-undefined-compare'
+===== BUILD LOG =====
+Change Dir: /home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d101b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d101b.dir/build.make CMakeFiles/cmTC_d101b.dir/build
+make[1]: Entering directory '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d101b.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG  -DNDEBUG -fPIE   -Wno-tautological-undefined-compare -std=c++11 -o CMakeFiles/cmTC_d101b.dir/src.cxx.o -c /home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.cxx
+/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-tautological-undefined-compare’
+Linking CXX executable cmTC_d101b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d101b.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_d101b.dir/src.cxx.o  -o cmTC_d101b 
+make[1]: Leaving directory '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’'
+Compilation failed:
+    source file: '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: /home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aba69/fast"
+/usr/bin/make -f CMakeFiles/cmTC_aba69.dir/build.make CMakeFiles/cmTC_aba69.dir/build
+make[1]: Entering directory '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_aba69.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O3 -DNDEBUG  -DNDEBUG -fPIE   -Wno-shorten-64-to-32 -std=c++11 -o CMakeFiles/cmTC_aba69.dir/src.cxx.o -c /home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.cxx
+/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’
+Linking CXX executable cmTC_aba69
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aba69.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_aba69.dir/src.cxx.o  -o cmTC_aba69 
+make[1]: Leaving directory '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-enum-compare-switch’'
+Compilation failed:
+    source file: '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-enum-compare-switch'
+===== BUILD LOG =====
+Change Dir: /home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0845e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0845e.dir/build.make CMakeFiles/cmTC_0845e.dir/build
+make[1]: Entering directory '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0845e.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O3 -DNDEBUG  -DNDEBUG -fPIE   -Wno-enum-compare-switch -std=c++11 -o CMakeFiles/cmTC_0845e.dir/src.cxx.o -c /home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.cxx
+/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-enum-compare-switch’
+Linking CXX executable cmTC_0845e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0845e.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_0845e.dir/src.cxx.o  -o cmTC_0845e 
+make[1]: Leaving directory '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_791b2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_791b2.dir/build.make CMakeFiles/cmTC_791b2.dir/build
+make[1]: Entering directory '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_791b2.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_791b2.dir/CheckIncludeFile.c.o   -c /home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sys/videoio.h: No such file or directory
+ #include <sys/videoio.h>
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_791b2.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_791b2.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_791b2.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/seven/Attendance/library/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_791b2/fast' failed
+make: *** [cmTC_791b2/fast] Error 2
+
+
